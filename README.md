@@ -7,24 +7,25 @@
 ___
 ## Установка на Андроид
 
-Скачиваем приложение [Termux](https://play.google.com/store/apps/details?id=com.termux) в Play Market<br>
+По этой ссылке скачиваем приложение [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk) с Гитхаба<br>
 Открываем и пишем команды поочерёдно<br>
 
 ***Для копирования команды нажмите справа от неё***
 
 *Обновляем*
 
-	apt-get update
+ 	apt update
+	apt upgrade
 *Ставим git и python*
 
-	apt-get install git python
+	apt install git python
 Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем<br>
 *Устанавливаем pyrogram*
 
 	pip install pyrogram
 *Клонируем репозиторий*
 
-	https://github.com/FLARMIX/telepython.git
+	git clone https://github.com/FLARMIX/telepython.git
 
 ___
 ## Команды в Телеграме
@@ -43,7 +44,8 @@ __
 ## Запуск
 *Введите* и ждите пока скрипт запросит номер телефона, привязанный к **ВАШЕМУ** телеграму
 
-	python telepython/main.py
+ 	cd telepython
+	python main.py
 	
 В **ТЕЛЕГРАМ** придёт код, введите его и скрипт заработает
 
