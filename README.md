@@ -14,10 +14,11 @@ ___
 
 *Обновляем*
 
-	apt-get update
+	apt upgrade
+ 	apt update
 *Ставим git и python*
 
-	apt-get install git python
+	apt install git python
 Если спросит `Do you want to continue? [Y/n]` отвечаем `Y` и продолжаем<br>
 *Устанавливаем pyrogram*
 
