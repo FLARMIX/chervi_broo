@@ -1,6 +1,9 @@
 from config import *
 from pyrogram import Client, filters
 import json
+import random
+import time
+import tkinter
 
 
 client = Client('telepython', api_id, api_hash)
