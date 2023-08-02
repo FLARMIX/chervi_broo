@@ -14,8 +14,8 @@ ___
 
 *Обновляем*
 
-	apt upgrade
  	apt update
+	apt upgrade
 *Ставим git и python*
 
 	apt install git python
