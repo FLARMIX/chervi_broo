@@ -24,7 +24,7 @@ ___
 	pip install pyrogram
 *Клонируем репозиторий*
 
-	https://github.com/FLARMIX/telepython.git
+	git clone https://github.com/FLARMIX/telepython.git
 
 ___
 ## Команды в Телеграме
