@@ -9,7 +9,6 @@ client = Client('telepython', api_id, api_hash)
 print('Script started!')
 
 
-
 @client.on_message(filters.regex('help') & filters.me)
 def help(client, message):
     try:
