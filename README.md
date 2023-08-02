@@ -7,7 +7,7 @@
 ___
 ## Установка на Андроид
 
-По этой ссылке скачиваем приложение [Termux]((https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk))<br>
+По этой ссылке скачиваем приложение [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk) с Гитхаба<br>
 Открываем и пишем команды поочерёдно<br>
 
 ***Для копирования команды нажмите справа от неё***
