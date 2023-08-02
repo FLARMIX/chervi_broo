@@ -1,8 +1,7 @@
 from config import *
 from pyrogram import Client, filters
-import openai
 import json
-import re
+
 
 client = Client('telepython', api_id, api_hash)
 
