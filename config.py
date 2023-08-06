@@ -7,6 +7,22 @@ api_hash = 'f5f96969dd51025b192d1f3b0aa2e43c'
 # Строчки выше не трогать!!
 
 
+all_chervs = '''
+Все черви:
+chervi
+chervi говорят
+chervi гуль
+chervi гитлер (осужадю)
+chervi хуй
+chervi цзлсузша
+chervi jeskoy
+chervi sigma
+
+Не черви:
+Life Could Be A Dream
+'''
+
+
 help_message = '''
 Про команду "send":
 Перед тем как использовать команду вы должны предыдущим сообщением написать исполняемый код
