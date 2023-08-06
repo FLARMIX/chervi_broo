@@ -33,7 +33,7 @@ def chervi(client, message):
             client.send_photo(message.chat.id, 'All_chervi/chervi_sigma.jpg')
         except:
             client.send_message(message.chat.id, 'Не удалось обработать запрос')
-    elif 'цлсузша' in message.text:
+    elif 'цзлсузша' in message.text:
         try:
             client.send_photo(message.chat.id, 'All_chervi/chervi_emu.jpg')
         except:
