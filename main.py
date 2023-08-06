@@ -23,6 +23,21 @@ def chervi(client, message):
             client.send_video(message.chat.id, 'All_chervi/chervi_govorit.gif')
         except:
             client.send_message(message.chat.id, 'Не удалось обработать запрос')
+    elif 'армстронг' in message.text:
+        try:
+            client.send_photo(message.chat.id, 'All_chervi/chervi_armstrong.jpg')
+        except:
+            client.send_message(message.chat.id, 'Не удалось обработать запрос')
+    elif 'sigma' in message.text:
+        try:
+            client.send_photo(message.chat.id, 'All_chervi/chervi_sigma.jpg')
+        except:
+            client.send_message(message.chat.id, 'Не удалось обработать запрос')
+    elif 'цлсузша' in message.text:
+        try:
+            client.send_photo(message.chat.id, 'All_chervi/chervi_emu.jpg')
+        except:
+            client.send_message(message.chat.id, 'Не удалось обработать запрос')
     elif 'djeskoy' in message.text:
         try:
             client.send_photo(message.chat.id, 'All_chervi/chervi_djeskoy.jpg')
