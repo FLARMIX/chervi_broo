@@ -8,6 +8,14 @@ client = Client('chervi_broo', api_id, api_hash)
 print('Script started!')
 
 
+@client.on_message(filters.regex('Гайд черви'))
+def send_all_chervs(client, message):
+    try:
+        client.send_message(message.chat.id, all_chervs)
+    except:
+        client.send_message(message.chat.id, 'Не удалось обработать запрос')
+
+
 @client.on_message(filters.regex('Life Could Be A Dream'))
 def lcbad(client, message):
     try:
@@ -23,7 +31,7 @@ def chervi(client, message):
             client.send_video(message.chat.id, 'All_chervi/chervi_govorit.gif')
         except:
             client.send_message(message.chat.id, 'Не удалось обработать запрос')
-    elif 'армстронг' in message.text:
+    elif 'хуй' in message.text:
         try:
             client.send_photo(message.chat.id, 'All_chervi/chervi_armstrong.jpg')
         except:
