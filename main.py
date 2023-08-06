@@ -30,12 +30,12 @@ def chervi(client, message):
             client.send_message(message.chat.id, 'Не удалось обработать запрос')
     elif 'гитлер' in message.text:
         try:
-            client.send_photo(message.chat.id, 'All_chervi/chervi_gitler.jpg')
+            client.send_photo(message.chat.id, 'All_chervi/chervi_gitler.jpg')  # Осуждаю / Condemn
         except:
             client.send_message(message.chat.id, 'Не удалось обработать запрос')
     elif 'гуль' in message.text:
         try:
-            client.send_photo(message.chat.id, 'All_chervi/chervi_ghoul.jpg')  # Осуждаю / Condemn
+            client.send_photo(message.chat.id, 'All_chervi/chervi_ghoul.jpg')
         except:
             client.send_message(message.chat.id, 'Не удалось обработать запрос')
     else:
