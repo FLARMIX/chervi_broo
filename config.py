@@ -15,7 +15,7 @@ chervi гуль
 chervi гитлер (осужадю)
 chervi хуй
 chervi цзлсузша
-chervi jeskoy
+chervi djeskoy
 chervi sigma
 
 Не черви:
