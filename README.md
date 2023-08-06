@@ -1,8 +1,4 @@
-# Калькулятор прямо в телеграм?
-
-![Работа бота](https://github.com/FLARMIX/telepython/blob/main/Screenshots/-2147483648_-217065.jpg)
-![Работа бота](https://github.com/FLARMIX/telepython/blob/main/Screenshots/-2147483648_-217067.jpg)
-![Работа бота](https://github.com/FLARMIX/telepython/blob/main/Screenshots/-2147483648_-217069.jpg)
+# Chervi это черви бро
 
 ___
 ## Установка на Андроид
@@ -25,7 +21,7 @@ ___
 	pip install pyrogram
 *Клонируем репозиторий*
 
-	git clone https://github.com/FLARMIX/telepython.git
+	git clone https://github.com/FLARMIX/chervi_broo.git
 
 ___
 ## Команды в Телеграме
@@ -49,7 +45,7 @@ __
 	
 В **ТЕЛЕГРАМ** придёт код, введите его и скрипт заработает
 
-![Запуск](https://github.com/FLARMIX/telepython/blob/main/Screenshots/start.png)<br>
+![Запуск](https://github.com/FLARMIX/chervi_broo/blob/main/Screenshots/start.png)<br>
 
 Если у вас стоит *двухфакторная аутентификация*, то скрипт запросит пароль<br>
 
